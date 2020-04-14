@@ -34,8 +34,6 @@ const Charts = ({data: {confirmed, recovered, deaths}, country}) => {
             }}/>) : null
     );
 
-    console.log(confirmed, recovered, deaths)
-
     const barChart = (
         confirmed ? (
             <Bar
